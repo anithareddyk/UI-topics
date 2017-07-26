@@ -1,0 +1,26 @@
+/*In JavaScript, objects and functions are also variables.
+In JavaScript, scope is the set of variables, objects, and functions you have access to.
+JavaScript has function scope: The scope changes inside functions.*/
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The local variable Name cannot be accessed from code outside the function:</p>
+
+<p id="demo"></p>
+
+<script>
+myFunction();
+document.getElementById("demo").innerHTML =
+"The type of carName is " + typeof Name;
+
+function myFunction() {
+    var Name = "anitha";
+}
+</script>
+/*Since local variables are only recognized inside their functions, variables with the same name can be used in different functions.
+Local variables are created when a function starts, and deleted when the function is completed.
+*/
+
+</body>
+</html>
