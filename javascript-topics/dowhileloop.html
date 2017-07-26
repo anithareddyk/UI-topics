@@ -1,0 +1,30 @@
+/*The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if 
+the condition is true, then it will repeat the loop as long as the condition is true.
+Syntax:
+do {
+    code block to be executed
+}
+while (condition);*/
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript do ... while</h2>
+
+<p id="demo"></p>
+
+<script>
+var text = ""
+var i = 0;
+
+do {
+    text += "The number is " + i;
+    i++;
+}
+while (i < 5);  
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
