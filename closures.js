@@ -1,6 +1,31 @@
 // Closures are functions that refer to 
 // independent (free) variables 
 // (variables that are used locally, but 
-// defined in an enclosing scope). In other words, 
-// these functions 'remember' the 
-// environment in which they were created.
+// defined in an enclosing scope). In other words,// 
+// these functions 'remember' the //
+// environment in which they were created.//
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Counting with a global variable.</p>
+
+<button type="button" onclick="myFunction()">Count!</button>
+
+<p id="demo">0</p>
+
+<script>
+var counter = 0;
+
+function add() {
+    return counter += 1;
+}
+
+function myFunction(){
+    document.getElementById("demo").innerHTML = add();
+}
+</script>
+
+</body>
+</html>
