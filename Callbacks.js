@@ -6,8 +6,7 @@
 // call our code when it finishes a long task, 
 // while allowing us to continue the execution of the code.
 // -->
-// var callback = function() {
-//     console.log("Done!");
-// }
-
-// setTimeout(callback, 5000);
+var callback = function() {
+         console.log("Done!");
+}
+ setTimeout(callback, 5000);
