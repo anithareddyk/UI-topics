@@ -1,0 +1,11 @@
+Template literals are string literals that can stretch across multiple lines and include interpolated expressions 
+Example:
+const firstName = 'Jane';
+console.log(`Hello ${firstName}!
+How are you
+today?`);
+
+// Output:
+// Hello Jane!
+// How are you
+// today?
