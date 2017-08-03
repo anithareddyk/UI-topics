@@ -9,5 +9,16 @@
 //  fulfilled: meaning that the operation completed successfully.
 //  rejected: meaning that the operation failed.
 //  A pending promise can either be fulfilled with a val
+let myFirstPromise = new Promise((resolve, reject) => {
+  
+  setTimeout(function(){
+    resolve("Success!"); 
+  }, 250);
+});
+
+myFirstPromise.then((successMessage) => {
+  
+  console.log("congrats! " + successMessage);
+});
 
 
