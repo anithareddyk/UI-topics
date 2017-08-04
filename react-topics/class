@@ -1,0 +1,20 @@
+class is used for  Auto-Binding for your React components.
+$ npm install react-class --save
+
+Instead of extending React.Component you have to extend the class exported by react-class.
+example:
+import Component from 'react-class'
+ or import { Component } from 'react-class
+ 
+class MyApp extends Component {
+  render() {
+    return <div {...props} onClick={this.onClick}>
+      //onClick is auto-bound to "this", so you can keep your code dry
+    </div>
+  }
+ 
+  onClick(){
+    console.log(this)
+    // this is correctly bound to the component instance
+  }
+}
