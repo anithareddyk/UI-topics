@@ -1,9 +1,9 @@
-<!--Var:
-The scope of a variable declared with the keyword var is its current execution context.
- This is either the enclosing function or for variables declared outside any function, global.-->
+// <!--Var:
+// The scope of a variable declared with the keyword var is its current execution context.
+//  This is either the enclosing function or for variables declared outside any function, global.-->
 
-<!--Let:
-  Variables declared with the keyword let is block scoped not function scope-->
+// <!--Let:
+//   Variables declared with the keyword let is block scoped not function scope-->
 
 //   <!--Const:
 //   The const keyword -> allow immutable variables.
