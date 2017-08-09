@@ -28,3 +28,7 @@ function Comment(props) {
 
 // Props are Read-Only:
 // All React components must act like pure functions with respect to their props.
+
+function Welcome(props) {
+  return <h1>{props.name}</h1>;
+}
