@@ -1,10 +1,5 @@
-// An element describing a component is also an element, just like an element describing the DOM node. 
-// They can be nested and mixed with each other.
-// Example: a small snippet would be as 
-{
-  type: select,
-  props: {
-    color: 'green',
-    children: 'OK!'
-  }
-}
+// Components let you split the UI into independent, reusable pieces, 
+// and think about each piece in isolation.
+
+// Conceptually, components are like JavaScript functions. 
+// They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
