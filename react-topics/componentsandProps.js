@@ -25,3 +25,6 @@ function Comment(props) {
     </div>
   );
 }
+
+// Props are Read-Only:
+// All React components must act like pure functions with respect to their props.
